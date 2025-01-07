@@ -18,8 +18,8 @@ def test_api_all(data):
         pass
     elif len(str(headers).split())>= 0:
         headers = json.loads(headers)
-        headers["Authorization"]="Bearer eyJhbGciOiJIUzUxMiJ9.eyJ0ZW5hbnQiOiJtYXN0ZXIiLCJsb2dpbl91c2VyX2tleSI6IjM4NDYxZTQ2LTkyODQtNDk2Ny1iYjdmLTllZDg4M2NjMTRhZSJ9.Oz8VrnOijzVUaZwIxfKR6ujbMCbdvMx2Gs9AOoMtD0wrdSFkclausubVQxHW0o39Q-SwaUTH5MVvdePamRnb1Q"
-        headers["Cookie"]="Tenant-Key=master; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJ0ZW5hbnQiOiJtYXN0ZXIiLCJsb2dpbl91c2VyX2tleSI6IjM4NDYxZTQ2LTkyODQtNDk2Ny1iYjdmLTllZDg4M2NjMTRhZSJ9.Oz8VrnOijzVUaZwIxfKR6ujbMCbdvMx2Gs9AOoMtD0wrdSFkclausubVQxHW0o39Q-SwaUTH5MVvdePamRnb1Q"
+        headers["Authorization"]="Bearer eyJhbGciOiJIUzUxMiJ9.eyJ0ZW5hbnQiOiJtYXN0ZXIiLCJsb2dpbl91c2VyX2tleSI6IjNlMDFhZDZlLWI5MGUtNGU4MC04ZTRjLWI4MTFmYjgwZDU2MCJ9.DoyKOkjnqz_MWw3maATomSNrSUosyiiKsEr1M7okphtEE1HypyHM7lbj66_Z8e4v39vHG4jJbyEuh6QVpYvzQA"
+        headers["Cookie"]="Tenant-Key=master; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJ0ZW5hbnQiOiJtYXN0ZXIiLCJsb2dpbl91c2VyX2tleSI6IjNlMDFhZDZlLWI5MGUtNGU4MC04ZTRjLWI4MTFmYjgwZDU2MCJ9.DoyKOkjnqz_MWw3maATomSNrSUosyiiKsEr1M7okphtEE1HypyHM7lbj66_Z8e4v39vHG4jJbyEuh6QVpYvzQA"
         headers=headers
         log.info(f"请求头为: {headers}")
 
