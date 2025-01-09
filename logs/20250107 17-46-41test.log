@@ -1,0 +1,12 @@
+2025-01-07 17:46:41,365-test.test_api_all-INFO-请求头为: {'Accept': 'application/json, text/plain, */*', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJ0ZW5hbnQiOiJtYXN0ZXIiLCJsb2dpbl91c2VyX2tleSI6IjNlMDFhZDZlLWI5MGUtNGU4MC04ZTRjLWI4MTFmYjgwZDU2MCJ9.DoyKOkjnqz_MWw3maATomSNrSUosyiiKsEr1M7okphtEE1HypyHM7lbj66_Z8e4v39vHG4jJbyEuh6QVpYvzQA', 'Cookie': 'Tenant-Key=master; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJ0ZW5hbnQiOiJtYXN0ZXIiLCJsb2dpbl91c2VyX2tleSI6IjNlMDFhZDZlLWI5MGUtNGU4MC04ZTRjLWI4MTFmYjgwZDU2MCJ9.DoyKOkjnqz_MWw3maATomSNrSUosyiiKsEr1M7okphtEE1HypyHM7lbj66_Z8e4v39vHG4jJbyEuh6QVpYvzQA'}
+2025-01-07 17:46:41,366-test.test_api_all-INFO-请求参数为: {
+"shipDynamicClassifyId": null,
+"classifyName": "测试",
+"remark": "备注",
+"createTime": null,
+"updateTime": null,
+"createBy": null,
+"updateBy": null,
+"createDept": null,
+"companyId": null
+}
